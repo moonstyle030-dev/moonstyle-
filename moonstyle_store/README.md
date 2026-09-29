@@ -1,0 +1,27 @@
+# MOONSTYLE — Premium Streetwear Store
+
+Dit is een mobile-first, premium static e-commerce prototype voor MOONSTYLE.
+
+## Bestanden
+- index.html — complete storefront
+- styles.css — responsive design system
+- script.js — filters, cart, newsletter popup, search, size guide
+- assets/moonstyle-cream.webp — aangeleverde productfoto
+- assets/moonstyle-black.webp — aangeleverde productfoto
+
+## Shopify
+De frontend is voorbereid op een Shopify-koppeling. De huidige checkoutknop geeft een placeholder-melding.
+Voor een echte Shopify checkout kun je `checkoutBtn` in `script.js` koppelen aan:
+- Shopify Storefront API Cart
+- Shopify Cart API / cart permalink
+- of een eigen backend die de Shopify checkout URL teruggeeft.
+
+## Live zetten
+Upload de bestanden naar je hosting of Vercel/Netlify. Voor productie:
+1. Vervang de voorbeeldmaten door de echte maattabel.
+2. Voeg echte productprijzen/SKU's toe.
+3. Koppel Shopify checkout.
+4. Vervang Instagram/TikTok placeholders door de echte accounts.
+5. Voeg echte privacy-, retour- en algemene voorwaarden toe.
+
+De productfoto's in `assets/` zijn de door jou aangeleverde afbeeldingen.
